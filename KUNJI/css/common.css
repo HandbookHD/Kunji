@@ -1,0 +1,107 @@
+/* 若要兼容需要加各个浏览器单独支持的格式 */
+/* nav logo字体 */
+@font-face{
+	font-family: 'Avenirblack';
+	src:url('../fonts/Avenirblack.TTF');
+}
+/* nav 公司名字体 */
+@font-face{
+	font-family: '方正书宋繁体';
+	src:url('../fonts/方正书宋繁体.TTF');
+}
+@font-face{
+	font-family:'Futura-Std';
+	src:url('../fonts/FuturaStd-Medium.otf');
+}
+
+
+body,h1,p,h2,h3,h4,h5,h6{
+	margin: 0;
+	font-weight: normal;
+}
+body{
+	/*font-family: '方正书宋繁体';*/
+	font-family: 'Futura-Std';
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+img{
+	display: block;
+}
+.clearfix{
+	clear: both;
+}
+
+/* nav */
+.header{
+	background: #F7DCDC;
+}
+.nav_box{
+	width: 1920px;
+	margin: 0 auto;
+	background: #F7DCDC;
+}
+.nav_box ul{
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav_box li{
+	float: left;
+	padding: 0 70px 0 70px;
+}
+.nav{
+	line-height: 155px;
+	font-family: 'Futura-Std';
+}
+.nav_box h1{
+	font-family: 'Avenirblack';
+	font-size: 74px;
+	margin-top: 14px;
+	color: #eb9e9b;
+}
+.nav_box p{
+	font-family: '方正书宋繁体';
+	font-size: 21px;
+	color: #8b6e4a;
+}
+.nav a:hover{
+	color: #eb9e9b;
+}
+
+
+/*footer*/
+.footer_box{
+	background: #F7DCDC;
+}
+.footer{
+	width: 1920px;
+	margin: 0 auto;
+	background: #F7DCDC;
+}
+.add{
+	font-size: 21px;
+	line-height: 31px;
+	margin: 26px 74px 22px;
+	float: left;
+	color: #8E9090;
+}
+.link{
+	float: right;
+	margin-right: 110px;
+	margin-top: 18px;
+}
+.link h1{
+	font-size: 14px;
+}
+.icon img{
+	float:left;
+	margin-top: 15px;
+}

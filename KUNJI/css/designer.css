@@ -1,0 +1,82 @@
+.content_box{
+	width: 1920px;
+	margin: 0 auto;
+	background: url(../images/designer_bg.png);
+	font-family: '方正书宋繁体'
+}
+.content_part01,.content_part02{
+	float: left;
+}
+.content_part01{
+	margin: 222px 60px 0 160px ;
+	width: 620px;
+}
+.p_icon,.info{
+	float: left;
+}
+.info{
+	margin: 75px 0 18px 18px;
+}
+.info h1{
+	font-size: 22px;
+	color: #6c89c5;
+	line-height: 26px;
+}
+.info p{
+	font-size: 17px;
+	color: #6c89c5;
+	line-height: 21px;
+}
+.text_info{
+	margin-top: 20px;
+}
+.text_info h2{
+	font-size: 16px;
+	color: #8e9090;
+	line-height: 25px;
+}
+.text_info h1{
+	font-size: 30px;
+	line-height: 37px;
+	color: #eb9e9b;
+}
+.text_info h3{
+	margin-top: 640px;
+	font-size: 20px;
+	color: #eb9e9b;
+}
+.text_info p{
+	font-size: 17px;
+	color: #8e9090;
+	line-height: 23px;
+	margin-bottom: 270px;
+}
+.text_info p span{
+	font-size: 20px;
+	color: #eb9e9b;
+}
+
+
+
+
+.content_part02{
+	width: 411px;
+	margin: 77px 0 0 273px;
+}
+
+.content_part02 h1{
+	font-size: 31px;
+	color: #eb9e9b;
+}
+
+.content_part02 p{
+	margin: 360px 0 0 35px;
+	width: 372px;
+	font-size: 17px;
+	line-height: 23px;
+	color: #8e9090;
+}
+.content_part02 p span{
+	color: #eb9e9b;
+	font-size: 20px;
+}
